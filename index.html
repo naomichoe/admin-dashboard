@@ -17,23 +17,50 @@
                 <h1>Dashboard</h1>
             </div>
             <ul class="top">
-                <li><img src="images/home.png">Home</li>
-                <li><img src="images/card-account-details.png" alt="">Profile</li>
-                <li><img src="images/message-reply.png" alt="">Messages</li>
-                <li><img src="images/clock-time-three.png" alt="">History</li>
-                <li><img src="images/text-box-check.png" alt="">Tasks</li>
-                <li><img src="images/account-group.png" alt="">Communities</li>
+                <li>
+                    <img src="images/home.png">
+                    <p><a href="#">Home</a></p>
+                </li>
+                <li>
+                    <img src="images/card-account-details.png" alt="">
+                    <p><a href="#">Profile</a></p>
+                </li>
+                <li>
+                    <img src="images/message-reply.png" alt="">
+                    <p><a href="#">Messages</a></p>
+                </li>
+                <li>
+                    <img src="images/clock-time-three.png" alt="">
+                    <p><a href="#">History</a></p>
+                </li>
+                <li>
+                    <img src="images/text-box-check.png" alt="">
+                    <p><a href="#">Tasks</a></p>
+                </li>
+                <li>
+                    <img src="images/account-group.png" alt="">
+                    <p><a href="#">Communities</a></p>
+                </li>
             </ul>
             <ul class="bottom">
-                <li><img src="images/cog-outline.png" alt="">Settings</li>
-                <li><img src="images/help-box.png" alt="">Support</li>
-                <li><img src="images/shield-check.png" alt="">Privacy</li>
+                <li>
+                    <img src="images/cog-outline.png" alt="">
+                    <p><a href="#">Settings</a></p>
+                </li>
+                <li>
+                    <img src="images/help-box.png" alt="">
+                    <p><a href="#">Support</a></p>
+                </li>
+                <li>
+                    <img src="images/shield-check.png" alt="">
+                    <p><a href="#">Privacy</a></p>
+                </li>
             </ul>
         </div>
         <div class="header">
             <div class="search-bar">
                 <div class="left-search">
-                    <button type="submit"><img src="images/magnify.png"></button>
+                    <button type="submit"><img id="magnify-btn" src="images/magnify.png"></button>
                     <input type="text" id="search" name="search">
                 </div>
                 <div class="right-search">
@@ -43,7 +70,7 @@
                 </div>
             </div>
             <div class="header-nav">
-                <div class="left-header">
+                <div class="left-nav">
                     <img src="images/icons8-snowman-96.png" alt="">
                     <div>
                         <p>Hi there,</p>
@@ -57,99 +84,117 @@
                 </div>
             </div>
         </div>
-        <div class="projects">
-            <h2>Your Projects</h2>
-            <div class="card">
-                <p class="title">Super Cool Projects</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima recusandae vitae incidunt, culpa officia rerum dicta iusto.</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
+        <div class="content-container">
+            <div class="projects">
+                <h2>Your Projects</h2>
+                <div class="all-cards">
+                    <div class="card">
+                        <p class="title">Super Cool Projects</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima recusandae vitae incidunt, culpa officia rerum dicta iusto.</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Less Cool Projects</p>
+                        <p>Quaerat vero nesciunt dignissimos qui amet facere expedita repudiandae dolores delectus nisi.</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Impossible App</p>
+                        <p>Exercitationem quibusdam sit eveniet rem excepturi autem porro, repellendus, corporis dignissimos ex deserunt inventore hic praesentium laborum nulla consequuntur sequi neque cumque?</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Easy Peasy App</p>
+                        <p>Amet non est harum libero iure deserunt quaerat quisquam ratione sunt labore impedit fugiat quo laudantium reprehenderit accusantium sed totam, nobis recusandae.</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Ad Blocker</p>
+                        <p>Unde nobis deserunt cum nam beatae veniam velit, non distinctio quibusdam repudiandae expedita. Itaque, quisquam esse eum dolor cum corporis.</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Money Maker</p>
+                        <p>Harum deleniti expedita rem, porro laboriosam praesentium, magnam nisi officiis voluptates pariatur rerum excepturi soluta officia aliquid alias doloremque at.</p>
+                        <div class="icons">
+                            <button><img src="images/star-plus-outline.png" alt=""></button>
+                            <button><img src="images/eye-plus-outline.png" alt=""></button>
+                            <button><img src="images/source-fork.png" alt=""></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <p class="title">Less Cool Projects</p>
-                <p>Quaerat vero nesciunt dignissimos qui amet facere expedita repudiandae dolores delectus nisi.</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="all-posts">
+                    <div class="post">
+                        <p class="title">Site Maintenance</p>
+                        <p>Atque possimus voluptates excepturi omnis temporibus! Asperiores fuga consectetur accusantium odit cumque quasi iste hic, voluptatem facere odio repellendus in voluptate molestias.</p>
+                    </div>
+                    <hr>
+                    <div class="post">
+                        <p class="title">Community Share Day</p>
+                        <p>Perferendis harum dignissimos, tempore nobis vero nemo. Voluptas ad aliquid facilis tempore iste adipisci maiores dolores accusantium molestias? Nam perspiciatis itaque veniam.</p>
+                    </div>
+                    <hr>
+                    <div class="post">
+                        <p class="title">Updated Privacy Policy</p>
+                        <p>Eius totam culpa ad error, atque repudiandae odit necessitatibus in ullam voluptatem optio, eos incidunt odio, voluptatibus quae sapiente cumque minus possimus.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <p class="title">Impossible App</p>
-                <p>Exercitationem quibusdam sit eveniet rem excepturi autem porro, repellendus, corporis dignissimos ex deserunt inventore hic praesentium laborum nulla consequuntur sequi neque cumque?</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
+            <div class="trending">
+                <h2>Trending</h2>
+                <div class="user-container">
+                    <div class="user">
+                        <img src="images/christmas-tree-with-gifts.svg" alt="">
+                        <div class="username-container">
+                            <p class="username">@tegan</p>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <img src="images/icons8-snowman-48.png" alt="snowman">
+                        <div class="username-container">
+                            <p class="username">@morgan</p>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <img src="images/christmas-mug.svg" alt="">
+                        <div class="username-container">
+                            <p class="username">@kendall</p>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <img src="images/christmas-wreath.svg" alt="">
+                        <div class="username-container">
+                            <p class="username">@alex</p>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <p class="title">Easy Peasy App</p>
-                <p>Amet non est harum libero iure deserunt quaerat quisquam ratione sunt labore impedit fugiat quo laudantium reprehenderit accusantium sed totam, nobis recusandae.</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
-                </div>
-            </div>
-            <div class="card">
-                <p class="title">Ad Blocker</p>
-                <p>Unde nobis deserunt cum nam beatae veniam velit, non distinctio quibusdam repudiandae expedita. Itaque, quisquam esse eum dolor cum corporis.</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
-                </div>
-            </div>
-            <div class="card">
-                <p class="title">Money Maker</p>
-                <p>Harum deleniti expedita rem, porro laboriosam praesentium, magnam nisi officiis voluptates pariatur rerum excepturi soluta officia aliquid alias doloremque at.</p>
-                <div class="icons">
-                    <button><img src="images/star-plus-outline.png" alt=""></button>
-                    <button><img src="images/eye-plus-outline.png" alt=""></button>
-                    <button><img src="images/source-fork.png" alt=""></button>
-                </div>
-            </div>
-        </div>
-        <div class="announcements">
-            <div class="post">
-                <p class="title">Site Maintenance</p>
-                <p>Atque possimus voluptates excepturi omnis temporibus! Asperiores fuga consectetur accusantium odit cumque quasi iste hic, voluptatem facere odio repellendus in voluptate molestias.</p>
-            </div>
-            <div class="post">
-                <p class="title">Community Share Day</p>
-                <p>Perferendis harum dignissimos, tempore nobis vero nemo. Voluptas ad aliquid facilis tempore iste adipisci maiores dolores accusantium molestias? Nam perspiciatis itaque veniam.</p>
-            </div>
-            <div class="post">
-                <p class="title">Updated Privacy Policy</p>
-                <p>Eius totam culpa ad error, atque repudiandae odit necessitatibus in ullam voluptatem optio, eos incidunt odio, voluptatibus quae sapiente cumque minus possimus.</p>
-            </div>
-        </div>
-        <div class="trending">
-            <div class="user">
-                <img src="images/christmas-tree-with-gifts.svg" alt="">
-                <div>
-                    <p class="username">@tegan</p>
-                    <p>World Peace Builder</p>
-                </div>
-            </div>
-            <div class="user">
-                <img src="images/icons8-snowman-48.png" alt="snowman">
-                <p class="username">@morgan</p>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="user">
-                <img src="images/christmas-mug.svg" alt="">
-                <p class="username">@kendall</p>
-                <p>Life Changing App</p>
-            </div>
-            <div class="user">
-                <img src="images/christmas-wreath.svg" alt="">
-                <p class="username">@alex</p>
-                <p>No Traffic Maker</p>
             </div>
         </div>
     </div>
